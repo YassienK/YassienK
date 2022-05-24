@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Insert First Number: ");
-        int num1 = scan.nextInt();
+        long num1 = scan.nextInt();
 
         System.out.println("Insert Second Number: ");
-        int num2 = scan.nextInt();
+        long num2 = scan.nextInt();
 
-        int res;
+        long res;
 
         System.out.println("Insert Math Action: ");
         String action = scan.nextLine();
